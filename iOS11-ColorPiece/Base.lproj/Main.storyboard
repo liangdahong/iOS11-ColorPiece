@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWv-yS-g9l">
+                                <rect key="frame" x="10" y="527" width="355" height="40"/>
+                                <color key="backgroundColor" name="myColor1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="p4I-Z4-SwR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jv3-UI-aBP">
+                                <rect key="frame" x="20" y="70" width="335" height="100"/>
+                                <color key="backgroundColor" name="myColor2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="SLH-Md-4jg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LmE-np-LyQ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="30"/>
+                                <color key="backgroundColor" name="myColor1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Qn6-QP-mY9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mWv-yS-g9l" secondAttribute="bottom" constant="100" id="4uE-pm-sjk"/>
+                            <constraint firstItem="jv3-UI-aBP" firstAttribute="top" secondItem="LmE-np-LyQ" secondAttribute="bottom" constant="20" id="500-xx-J8X"/>
+                            <constraint firstItem="LmE-np-LyQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8f6-Lk-wAz"/>
+                            <constraint firstAttribute="trailing" secondItem="jv3-UI-aBP" secondAttribute="trailing" constant="20" id="EsS-zc-YbN"/>
+                            <constraint firstAttribute="trailing" secondItem="LmE-np-LyQ" secondAttribute="trailing" id="Thy-X0-Dor"/>
+                            <constraint firstItem="LmE-np-LyQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="V8k-4L-Hjf"/>
+                            <constraint firstItem="mWv-yS-g9l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="hZ3-yV-lxB"/>
+                            <constraint firstAttribute="trailing" secondItem="mWv-yS-g9l" secondAttribute="trailing" constant="10" id="j9D-1g-ZvD"/>
+                            <constraint firstItem="jv3-UI-aBP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="xrl-X6-4vg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="myColor1">
+            <color red="1" green="0.49799999594688416" blue="0.11800000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="myColor2">
+            <color red="0.012000000104308128" green="0.47099998593330383" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
